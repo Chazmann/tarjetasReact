@@ -1,10 +1,10 @@
 import React from 'react'
 import './card.css'
 
-const Card = () => {
+const UserCard = () => {
   return (
-    <div>Card</div>
+    <div>biri biri</div>
   )
 }
 
-export default Card
+export default UserCard

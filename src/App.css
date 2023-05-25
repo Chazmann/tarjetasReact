@@ -3,8 +3,13 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+body{
+  background: url(./assets/back2.svg)
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -33,10 +38,3 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
