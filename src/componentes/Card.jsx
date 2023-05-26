@@ -3,7 +3,7 @@ import './card.css'
 
 const UserCard = () => {
   return (
-    <div>biri biri</div>
+    <article className="card_item">ALgo</article>
   )
 }
 

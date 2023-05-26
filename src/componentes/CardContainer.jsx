@@ -6,6 +6,8 @@ const CardContainer = () => {
   return (
     <div className='card__container'>
       <h1>CardContainer</h1>
+      <UserCard />
+      <UserCard />
     </div>
     
 

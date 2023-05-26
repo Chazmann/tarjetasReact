@@ -1,9 +1,17 @@
 .card__container{
     backdrop-filter: blur(1.5px);
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     border-radius: 14px;
     box-shadow: 0 0 15px -5px white;
     color: white;
-    width: 100%;
+    width: 90%;
     margin: auto;
+    gap: 14px;
+    
+}
+.card_item{
+    flex:1 0 320px;
+    background-color: rgb(32, 32, 32);
 }
