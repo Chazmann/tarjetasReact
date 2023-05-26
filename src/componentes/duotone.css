@@ -1,0 +1,40 @@
+.duotone{
+max-width: 350px;
+max-height:350px;
+position: relative;
+margin: 0 auto;
+overflow: hidden;
+}
+.bd{
+    border-radius: 10px;
+}
+
+.duotone::before,
+.duotone::after {
+content: '';
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+overflow: hidden;
+}
+
+.duotone img {
+    /* aspect-ratio: 1 / 1; */
+    height: 100%;
+    width: 100%; object-fit: cover; object-position: center;
+filter: grayscale() brightness(110%);
+}
+
+.duotone::after{
+background: rgba(255, 255, 0, 1);
+mix-blend-mode: multiply;
+}
+
+.duotone::before {
+background: navy;
+mix-blend-mode: lighten;
+}

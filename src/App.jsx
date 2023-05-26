@@ -7,8 +7,6 @@ import Foo from './componentes/Foo'
 import HeaderNav from './componentes/HeaderNav'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <HeaderNav />

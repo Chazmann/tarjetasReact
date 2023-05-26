@@ -1,16 +1,17 @@
 import React from 'react'
 import './card.css'
 import UserCard from './Card'
-import personas from '../datos/personas.json'
+import persona from '../datos/personas.json'
 
 const CardContainer = () => {
   return (
     <div className='card__container'>
       <h1>CardContainer</h1>
       <div className="list__items">
-        {personas.map ( persona =>
-          <UserCard name={persona.nombre} profesion={persona.profesion} urlimg={persona.foto}/>
-          )}
+        <UserCard producto="Vaina" />
+        <UserCard producto="Algo mäs" />
+        <UserCard producto="Tercer Producto" />
+        <UserCard producto="Puerta PlacaS" />
         </div>
     </div>
 

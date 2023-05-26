@@ -1,5 +1,36 @@
-[
-   {
+{
+  "Autos": [
+    {
+      "marca": "Volkswagen",
+      "modelo": "Amarok",
+      "version": "Trendline 4x2 CD",
+      "año": "2017",
+      "combustible": "Diesel"
+    },
+    {
+      "marca": "Chery",
+      "modelo": "Tiggo 3",
+      "version": "138cv LF 4x2",
+      "año": "2013",
+      "combustible": "Nafta"
+    },
+    {
+      "marca": "Ford",
+      "modelo": "Focus",
+      "version": "Titanium 1.6",
+      "año": "2019",
+      "combustible": "Nafta"
+    },
+    {
+      "marca": "Volkswagen",
+      "modelo": "Golf",
+      "version": "Highline 1.4",
+      "año": "2021",
+      "combustible": "Nafta"
+    }
+  ],
+  "Personas": [
+    {
       "nombre": "Leandro Chazarreta",
       "edad": "37",
       "dni": "31698157",
@@ -36,3 +67,4 @@
       "obs": "Fullstack Dev"
     }
   ]
+}

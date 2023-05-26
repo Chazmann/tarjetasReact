@@ -1,6 +1,26 @@
-*{padding: 0;
-margin: 0;
-box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Cinzel:wght@400;500;700&family=Kadwa:wght@400;700&family=Kanit:wght@100;400;700;900&family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Quando&family=Roboto:wght@100;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --castoro: 'Castoro Titling', cursive;
+  --cinzel: 'Cinzel', serif;
+  --kadwa: 'Kadwa', serif;
+  --kanit: 'Kanit', sans-serif;
+  --lato: 'Lato', sans-serif;
+  --quando: 'Quando', serif;
+  --roboto: 'Roboto', sans-serif;
+}
+.roboto{font-family: var(--roboto);}
+.quando{font-family: var(--quando)}
+.lato{font-family: lato;}
+.kanit{font-family: var(--kanit);}
+
 
 #root {
   max-width: 1280px;
@@ -11,18 +31,22 @@ box-sizing: border-box;}
   flex-direction: column;
   gap: 20px;
 }
-body{
+
+body {
   background: url(./assets/back2.svg)
 }
+
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -31,6 +55,7 @@ body{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -41,4 +66,3 @@ body{
     animation: logo-spin infinite 20s linear;
   }
 }
-

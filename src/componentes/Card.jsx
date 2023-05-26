@@ -1,9 +1,25 @@
 import React from 'react'
 import './card.css'
+import './duotone.css'
 
-const UserCard = () => {
+const UserCard = (props) => {
   return (
-    <article className="card_item">ALgo</article>
+    <article className="card_item">
+      <h2 className='quando'>{props.name}</h2>
+      <blockquote className='lato'>{props.profesion}</blockquote>
+      <div className="divider"></div>
+      <div class="duotone">
+        {/* <img src="http://source.unsplash.com/HvZDCuRnSaY/800x600" /> */}
+        <img src={props.urlimg} alt="" />
+      </div>
+      <div className="divider_light"></div>
+      <p className='lato'>Descripción: Grupo de amigos</p>
+      <p className='lato'>Descripción: Grupo de amigos</p>
+      <div className="divider_light"></div>
+
+
+
+    </article>
   )
 }
 
