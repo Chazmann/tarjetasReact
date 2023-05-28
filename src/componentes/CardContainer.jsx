@@ -13,7 +13,6 @@ const CardContainer = () => {
           )}
         </div>
     </div>
-
   )
 }
 
