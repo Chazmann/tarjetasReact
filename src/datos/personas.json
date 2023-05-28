@@ -14,7 +14,7 @@
       "dni": "31181312",
       "profesion": "Auditora de Calidad",
       "estudios": "Nutricionista",
-      "foto": "https://randomuser.me/api/portraits/women/0.jpg",
+      "foto": "https://randomuser.me/api/portraits/women/30.jpg",
       "obs": "Sin observaciones"
     },
     {
@@ -23,7 +23,7 @@
       "dni": "30638825",
       "profesion": "Programador",
       "estudios": "Analista de Sistemas",
-      "foto": "https://randomuser.me/api/portraits/men/3.jpg",
+      "foto": "https://randomuser.me/api/portraits/men/43.jpg",
       "obs": "Desarrollador FullStack"
     },
     {
@@ -32,7 +32,7 @@
       "dni": "31630423",
       "profesion": "Programador",
       "estudios": "Licenciado en Sistemas",
-      "foto": "https://randomuser.me/api/portraits/men/23.jpg",
+      "foto": "https://randomuser.me/api/portraits/men/22.jpg",
       "obs": "Fullstack Dev"
     }
   ]

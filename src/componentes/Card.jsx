@@ -13,8 +13,8 @@ const UserCard = (props) => {
         <img src={props.urlimg} alt="" />
       </div>
       <div className="divider_light"></div>
-      <p className='lato'>Descripción: Grupo de amigos</p>
-      <p className='lato'>Descripción: Grupo de amigos</p>
+      <p className='lato'>Estudios: {props.est}</p>
+      <p className='lato'>Observaciones: <b>{props.observaciones}</b></p>
       <div className="divider_light"></div>
 
 

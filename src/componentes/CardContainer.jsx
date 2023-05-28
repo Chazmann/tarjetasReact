@@ -9,7 +9,7 @@ const CardContainer = () => {
       <h1>CardContainer</h1>
       <div className="list__items">
         {personas.map ( persona =>
-          <UserCard name={persona.nombre} profesion={persona.profesion} urlimg={persona.foto}/>
+          <UserCard name={persona.nombre} profesion={persona.profesion} urlimg={persona.foto} observaciones={persona.obs} est={persona.estudios}/>
           )}
         </div>
     </div>
