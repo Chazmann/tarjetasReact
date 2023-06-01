@@ -3,7 +3,8 @@
       "marca": "Volkswagen",
       "modelo": "Amarok",
       "version": "Trendline 4x2 CD",
-      "foto":"https://hips.hearstapps.com/es.h-cdn.co/cades/contenidos/60642/abt-amarok-3.0-tdi-port.jpg",
+      "fotdo":"https://hips.hearstapps.com/es.h-cdn.co/cades/contenidos/60642/abt-amarok-3.0-tdi-port.jpg",
+      "foto":"src/assets/images/1.jpg",
       "año": "2017",
       "combustible": "Diesel"
     },
