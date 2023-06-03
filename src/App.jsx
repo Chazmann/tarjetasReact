@@ -12,9 +12,6 @@ function App() {
       <HeaderNav />
       <CardContainer />
       <Foo />
-    
-    
-
     </>
   )
 }
