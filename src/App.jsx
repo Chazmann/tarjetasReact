@@ -3,15 +3,16 @@ import {
   Routes, Route, Link
 } from "react-router-dom"
 import CardContainer from "./componentes/CardContainer"
-
 import UserCard from "./componentes/Card"
+
+
 const Home = () => (
   <div> <h3>TKTL notes app</h3> </div>
 )
 
 const Notes = () => (
   <div> <h3>Notes</h3>
-  <UserCard /></div>
+    <UserCard /></div>
 )
 
 const Users = () => (
@@ -21,7 +22,7 @@ const App = () => {
 
   const padding = {
     padding: 5
-    
+
   }
 
   return (
