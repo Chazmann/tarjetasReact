@@ -1,13 +1,15 @@
-import {
-  BrowserRouter as Router,
-  Routes, Route, Link
-} from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
 import CardContainer from "./componentes/CardContainer"
 import UserCard from "./componentes/Card"
+import './componentes/headernav.css'
+import './componentes/card.css'
+import Foo from "./componentes/Foo"
+import AutoContainer from "./componentes/Pimbas"
+
 
 
 const Home = () => (
-  <div> <h3>TKTL notes app</h3> </div>
+  <div> <h3>Cosas del inicio, slider, secciones, etc</h3> </div>
 )
 
 const Notes = () => (
@@ -25,24 +27,27 @@ const App = () => {
 
   }
 
-  return (
+  return (<>
+  
     <Router>
+    
+      <header className='header__nav'>
       <div>
         <Link style={padding} to="/">home</Link>
-        <Link style={padding} to="/notes">users</Link>
-        <Link style={padding} to="/users">CardContainer</Link>
+        <Link style={padding} to="/usuarios">users</Link>
+        <Link style={padding} to="/tarjetas">CardContainer</Link>
       </div>
+      </header>
 
       <Routes>
-        <Route path="/notes" element={<Notes />} />
-        <Route path="/users" element={<CardContainer />} />
+        <Route path="/usuarios" element={<AutoContainer />} />
+        <Route path="/tarjetas" element={<CardContainer />} />
         <Route path="/" element={<Home />} />
       </Routes>
-
-      <div>
-        <i>Note app, Department of Computer Science 2023</i>
-      </div>
+    
     </Router>
+    <Foo />
+    </>
   )
 }
 

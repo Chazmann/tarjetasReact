@@ -1,11 +1,12 @@
 .header__nav {
     position: sticky;
+    margin: auto;
     z-index: 10;
     top: 0;
     height: 70px;
     line-height: 30px;
     color: white;
-   width: 100%;
+   width: calc(100vw - 62px)!important;
     background-color: black;
     font-size: 1.4rem;
     padding: 20px;
