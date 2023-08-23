@@ -34,5 +34,41 @@
       "estudios": "Licenciado en Sistemas",
       "foto": "https://randomuser.me/api/portraits/men/22.jpg",
       "obs": "Fullstack Dev"
+    },
+    {
+      "nombre": "Tio Nacho",
+      "edad": "38",
+      "dni": "31630423",
+      "profesion": "Programador",
+      "estudios": "Licenciado en Sistemas",
+      "foto": "https://randomuser.me/api/portraits/men/6.jpg",
+      "obs": "Fullstack Dev"
+    },
+    {
+      "nombre": "sMartin Nazarre",
+      "edad": "38",
+      "dni": "31630423",
+      "profesion": "Programador",
+      "estudios": "Licenciado en Sistemas",
+      "foto": "https://randomuser.me/api/portraits/men/51.jpg",
+      "obs": "Fullstack Dev"
+    },
+    {
+      "nombre": "Martin Nazarre",
+      "edad": "38",
+      "dni": "31630423",
+      "profesion": "Programador",
+      "estudios": "Licenciado en Sistemas",
+      "foto": "https://randomuser.me/api/portraits/men/19.jpg",
+      "obs": "Fullstack Dev"
+    },
+    {
+      "nombre": "Martin Nazarre",
+      "edad": "38",
+      "dni": "31630423",
+      "profesion": "Programador",
+      "estudios": "Licenciado en Sistemas",
+      "foto": "https://randomuser.me/api/portraits/men/81.jpg",
+      "obs": "Fullstack Dev"
     }
   ]
